@@ -1,4 +1,4 @@
-# Rich-Text-Editor (Development phase)
+# Rich-Text-Editor (Development phase 🔨)
 A Rich-text-editor build on top of Pure Vanilla JS with zero libraries.
 
 ## Things to Implement
