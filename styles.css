@@ -11,10 +11,10 @@ body,html{
     margin: 1rem 1rem 0 1rem;
 }
 .tool-list {
-	display: flex;
+    display: flex;
     flex-flow: wrap;
-	list-style: none;
-	border-radius: 10px;
+    list-style: none;
+    border-radius: 10px;
     padding: 10px;
     background-color: rgb(196, 196, 196);
 }
@@ -28,9 +28,9 @@ body,html{
 }
 .tool--btn {
     cursor: pointer;
-	display: block;
-	border: none;
-	font-size: 20px;
+    display: block;
+    border: none;
+    font-size: 20px;
     outline: none;
     background-color: transparent;
 }
@@ -50,11 +50,12 @@ body,html{
     
 }
 #output {
-	height: 70%;
+    height: 70%;
     border-radius: 5px; 
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	margin: 0rem 1rem;
-	padding: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 0rem 1rem;
+    padding: 1rem;
+    outline:none;
     border:solid 2px rgb(167, 167, 167);
 }
 @media only screen and (max-width: 600px) {
