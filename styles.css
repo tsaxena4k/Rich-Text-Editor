@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    box-sizing: border-box;
+}
+.toolbar{
+    height: 20%;
+    margin: 1rem 1rem 0 1rem;
+}
+.tool-list {
+	display: flex;
+    flex-flow: wrap;
+	list-style: none;
+	border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(196, 196, 196);
+}
+.tool-list .tool{
+    padding: 10px;
+    margin: 0 5px;
+}
+.tool-list .tool:hover{
+    background-color: rgb(158, 158, 158);
+    border-radius: 5px;
+}
+.tool--btn {
+    cursor: pointer;
+	display: block;
+	border: none;
+	font-size: 20px;
+    outline: none;
+    background-color: transparent;
+}
+
+.val{
+    border-left:solid 1px black;
+}
+.active{
+    background-color: rgb(158, 158, 158);
+    border-radius: 5px;
+}
+.attribute{
+    position: absolute;
+    right: 1.1rem;
+    bottom: 1.3rem;
+    background-color: rgb(226, 226, 226);
+    
+}
+#output {
+	height: 70%;
+    border-radius: 5px; 
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin: 0rem 1rem;
+	padding: 1rem;
+    border:solid 2px rgb(167, 167, 167);
+}
+@media only screen and (max-width: 600px) {
+    .tool-list{
+        justify-content: space-between;
+    }
+    .val{
+        display: none;
+    }
+  }

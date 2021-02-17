@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/c737c5efe3.js"></script>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="toolbar">
+        <ul class="tool-list">
+            <li class="tool">
+                <button type="button" data-command='undo' class="tool--btn">
+                    <i class="fa fa-undo"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command='redo' class="tool--btn">
+                    <i class="fa fa-repeat"></i>
+                </button>
+            </li>
+            <li class="val"></li>
+            <li class="tool">
+                <button type="button" data-command='justifyLeft' class="tool--btn">
+                    <i class="fa fa-align-left"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command='justifyCenter' class="tool--btn">
+                    <i class='fa fa-align-center'></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command='justifyRight' class="tool--btn">
+                    <i class='fa fa-align-right'></i>
+                </button>
+            </li>
+            <li class="val"></li>
+            <li class="tool">
+                <button type="button" data-command="bold" class="tool--btn">
+                    <i class=' fa fa-bold'></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="italic" class="tool--btn">
+                    <i class=' fa fa-italic'></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="underline" class="tool--btn">
+                    <i class=' fa fa-underline'></i>
+                </button>
+            </li>
+            <li class="val"></li>
+            <li class="tool">
+                <button type="button" data-command="insertOrderedList" class="tool--btn">
+                    <i class=' fa fa-list-ol'></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="insertUnorderedList" class="tool--btn">
+                    <i class=' fa fa-list-ul'></i>
+                </button>
+            </li>
+            <li class="val"></li>
+            <li class="tool">
+                <button type="button" data-command="createlink" class="tool--btn">
+                    <i class=' fa fa-link'></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div id="output" contenteditable="true"></div>
+    <div class="attribute"><span>Coded by <a href="https://github.com/tsaxena4k" target="_blank">Tushar</a></span></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
