@@ -1,5 +1,5 @@
 # Rich-Text-Editor
-A Rich-text-editor build on top of Pure Vanilla JS.
+A Rich-text-editor build on top of Pure Vanilla JS with zero libraries.
 
 ## Things to Implement
 - IndexDB
